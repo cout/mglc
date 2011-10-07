@@ -1,0 +1,14 @@
+mGLC changes list
+---------------------
+
+mGLC 0.3
+- Added bitmap transformations (this means you can rotate text)
+- Added support for font faces
+- Fonts are now rendered correctly and in the correct position.
+
+mGLC 0.2
+- Non-functional, non-released version, supports basic bitmap rendering
+  without GLX
+
+mGLC 0.1
+- Original version, supports basic bitmap rendering through GLX

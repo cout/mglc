@@ -1,0 +1,30 @@
+mGLC version 0.3
+Copyright (C) 2000 Paul Brannan
+
+The mGLC library is an attempt to re-implement SGI's GLC library on a
+platform other than Irix.  The GLC library is the GL character renderer,
+"a state machine that provides OpenGL programs with character rendering
+services via an application programming interface (API)."  It has several
+advantages over platform-specific interfaces such as GLX or WGL.  For more
+information, please see the GLC specification at
+http://toolbox.sgi.com/TasteOfDT/documents/OpenGL/glc/glcspec.html.
+
+This library is released under the GNU LGPL.  For more information, please
+see the file LICENSE, or visit the GNU web page at www.gnu.org.
+
+The following options are not supported (section numbers are for the above
+document):
+Master Commands (3.6.*, 3.7.14)
+glcStringType (3.5.15)
+Callbacks (3.5.1, 3.5.6)
+Lists (3.5.7, 3.5.8)
+Font Maps (3.7.5, 3.7.9)
+Rendering Styles (3.9, 3.9.4)
+Measurement Commands (3.10.*)
+Replacement Code (3.9.5)
+Resolution (3.9.6)
+
+In other words:
+- We use the font from the first encoding that we find (no font maps)
+- Textured fonts are not (yet) supported.
+- Rotated and scaled fonts are now supported.
