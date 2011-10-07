@@ -1,5 +1,5 @@
-mGLC version 0.3
-Copyright (C) 2000 Paul Brannan
+mGLC version 0.4
+Copyright (C) 2011 Paul Brannan
 
 The mGLC library is an attempt to re-implement SGI's GLC library on a
 platform other than Irix.  The GLC library is the GL character renderer,
@@ -28,3 +28,7 @@ In other words:
 - We use the font from the first encoding that we find (no font maps)
 - Textured fonts are not (yet) supported.
 - Rotated and scaled fonts are now supported.
+
+I originally released this library as Mesa-GLC in 2000.  I have changed the
+name, since this project is not at all affiliated with the Mesa project.
+
